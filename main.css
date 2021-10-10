@@ -1,0 +1,345 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 77%;
+    height:3111px;
+    border:3px solid black;
+    margin: 0 auto;
+}
+
+.navbar {
+    width:100%;
+    height:111px;
+    border:3px solid rgb(0, 0, 0);
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.navbar .logo {
+    width:150px;
+    height:41px;
+    font-size:31px;
+    margin-top:31px;
+    cursor:pointer;
+}
+
+.navbar .menu {
+    width:400px;
+    height:51px;
+    margin-top:41px;
+    
+
+}
+
+.navbar .menu a {
+    text-decoration:none;
+    color:black;
+    font-size:22px;
+    margin-left:39px;
+}
+
+.navbar .menu a:hover {
+    color:rgb(110, 110, 255);
+}
+
+
+.login-menu {
+    width:200px;
+    height:51px;
+    display:flex;
+    margin-top:31px;
+
+}
+
+.login-menu .login-form {
+    width:90px;
+    height:47px;
+    border:2px solid black;
+    border-radius:12px;
+    font-size:19px;
+    padding-top:11px;
+    text-align:center;
+
+}
+
+.login-form:hover {
+    background-color:darkblue;
+    color:white;
+    cursor:pointer;
+}
+
+.m-left {
+    margin-left:11px;
+}
+
+.landing {
+    width:100%;
+    height:390px;
+    border:3px solid black;
+    display:flex;
+    justify-content: space-between;
+}
+
+.description {
+    width:47%;
+    height:100%;
+}
+.image {
+    width:47%;
+    height:100%;
+    background-image:url("https://media-cdn.tripadvisor.com/media/photo-s/12/f5/56/70/broken-shaker-rooftop.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.description .header {
+    width:150px;
+    height:auto;
+    font-size:22px;
+    width:251px;
+    margin-top:51px;
+}
+
+.description .text {
+    margin-top:61px;
+}
+
+.description .buttons {
+    width:389px;
+    height: 44px;
+
+    display:flex;
+    margin-top:21px;
+    
+}
+
+.buttons .btn {
+    width: 170px;
+    height:100%;
+    border:2px solid #007FFC;
+    color:#007FFC;
+    border-radius:5px;
+    text-align:center;
+    font-size:21px;
+    padding-top:7px;
+
+}
+.buttons .btn:hover {
+    background-color:#007FFC;
+    color:white;
+    cursor: pointer;
+}
+.buttons .more {
+    margin-left: 51px;
+    
+}
+
+.plan-header {
+    margin-top:51px;
+
+}
+
+.plan-header h2 {
+    margin-top:31px;
+}
+.plan-header p {
+    margin-top:31px;
+}
+
+.cards {
+    width:100%;
+    height:399px;
+    margin-top:41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards .card {
+    width:29%;
+    height:100%;
+    text-align: center;
+}
+
+.cards .c-1 {
+    border:0.1px solid rgba(128, 128, 128, 0.062);
+    border-top-color:#007FFC;
+    border-top-width: 2px;
+    margin-left:21px;
+}
+.cards .c-2 {
+    border:0.1px solid rgba(128, 128, 128, 0.062);
+    border-top-color:#52C29D;
+    border-top-width: 2px;
+    margin-left:21px;
+}
+.cards .c-3 {
+    border:0.1px solid rgba(128, 128, 128, 0.062);
+    border-top-color:#F04D5D;
+    border-top-width: 2px;
+    margin-left:21px;
+}
+
+.cards .card h3 {
+    margin-top:71px;
+}
+.cards .card h2,p {
+    margin-top:21px;
+}
+
+.cards .card .btn {
+    width:179px;
+    height:49px;
+    text-align: center;
+    padding-top:7px;
+    color:darkblue;
+    font-size:21px;
+    border:3px solid darkblue;
+    border-radius:21px;
+    margin:0 auto;
+    margin-top:71px;
+
+}
+
+
+.cards .card .btn:hover {
+    background-color:darkblue;
+    color:white;
+    cursor: pointer;
+}
+.textparent{
+    width:100%;
+    height:121px;
+    margin-top:41px;
+   
+}
+
+.text-1{
+    font-size:31px;
+    margin-top:31px;
+}
+
+
+/* border: 3px solid red; */
+
+/* 
+background-image:url"link");
+background-repeat:no-repeat;
+background-size:cover;
+*/
+.photo-parent{
+    width:100%;
+    height:500px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo-1{
+    width:49%;
+    height:500px;
+    border: 3px solid black;
+    background-image:url("leftperson.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+
+}
+.photo-2{
+    width:49%;
+    height:500px;
+    background-image:url("rightperson.jpg");
+    border: 3px solid black;
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}   
+
+.photo-1 h2{
+    color:white;
+    margin-top:350px;
+    margin-left:30px;
+}
+.photo-2 h2{
+    color: white;
+    margin-top:350px;
+    margin-left:30px;
+}
+.cardparent{
+    width:100%;
+    height:1000px;
+    border: 3px solid black;
+    display: flex;
+}
+
+.cardchiald-1{
+    width:31%;
+    height:300px;
+    border: 3px solid black;
+    margin-top:30px;
+    margin-left:2%;
+    
+}
+/*  background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEUAAAD////39/cuLi59fX27u7uXl5eysrKlpaXIyMh3d3fMzMzPz88yMjLy8vJmZmaTk5Pt7e1sbGzl5eUmJiYgICCfn58LCwspKSlFRUVMTEyKiopRUVFxcXFZWVlAQEA8jzF0AAAC/ElEQVR4nO3di3KiQBCF4ZlxN2uio7AL4m3N+79lvFEqEYGatF2nPd8T9F8zXMRInLfOaQ8gjoX4WIiPhfhYiI+F+FiI7/UKA74HhdNsvoojdHE1z6b3CkNWODuKLDQLx9oz/bjxTeFspz2PgN3sUphH7WlExLwuDKX2LELKcC5ca08iZn0qXGjPIWhxKMy1pxCV7ws32kOI2ngXKu0hRFXBvWvPIOzdvWmPIOzNbbVHELZ1Vq/2tdLZPtE4831EREREREQk5DPTnkDYMnjbj66Why+sLCfG0zdydhPPgXYTl3Wg1cR4CbSZeBNoMXHZ/EMca4nLmW+ylRibK2gtMX5fQVuJd7aorcRRW6CVxJYtaifx81GgicTxw0ATiX+YyEQETGQiBCYyEQITmQiBiUyEwEQmQmAiEyEwkYkQmMhECExkIoQXSMw7ElfaA6aadAR+aA+YatoR+Fd7wFTmV9B8YNcW/a89YCrzgea3qPlA85eJrkD4FTS/RbsC4c+i5o/Bl9+i8IHm72TMB5rfouYDzV8meKumPWCql79Vgw98+S0KH8jLhPaAqcxvUfOB5o/Brq9Au1Zw+yvNXLyw/Je2Rbt+odllKl7oqkeJ3XcyqYVPeRt3e2KPWzWIwtbEPmdRjMKWjdrrMoFReD+x32UCpPBeYs8LPUrh92Ox750MTmFjFXt/4MUpvF3F/rdqSIVXqzjgZhup8JI45NMEVGGdOOihE1bhKXHYUzWwwsPpZuAH3tTCiUxHu2Loc9GP32msvy+ViIiIiIiIiIiIiIiIiIiIiIiIiIierdIeQFjlSu0RhJVuqz2CsK0z8Crjh97c0//a/8kmLtg+1VTB+Y32EKI23vlcewhR+b7QL7SnELTwh0K/1p5DzNqfCkOhPYmQIpwLfR61ZxERj+/8Pxb62U57GgG703+Fd+cfwY215/lx9c8C60IfMktHY5EF3yzcm2bzVRyhi6t5dv3WoOvC41LiaxQ1C+1hIT4W4mMhPhbiYyE+FuJjIb4vcn1FCCNJ6vsAAAAASUVORK5CYII=");
+background-repeat:no-repeat;
+background-size:cover; */
+.cardsuperchiald1{
+width: 100%;
+height:auto;
+}
+.cardsuperchiald1 h1{
+    margin-top:30px;
+}
+.cardsuperchiald1 img{
+    width:80px;
+    height: 80px;
+}
+.cardchiald-2{
+    width:31%;
+    height:300px;
+    border: 3px solid black;
+    margin-top:30px;
+    margin-left:2%;
+    
+}
+/*  background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEUAAAD////39/cuLi59fX27u7uXl5eysrKlpaXIyMh3d3fMzMzPz88yMjLy8vJmZmaTk5Pt7e1sbGzl5eUmJiYgICCfn58LCwspKSlFRUVMTEyKiopRUVFxcXFZWVlAQEA8jzF0AAAC/ElEQVR4nO3di3KiQBCF4ZlxN2uio7AL4m3N+79lvFEqEYGatF2nPd8T9F8zXMRInLfOaQ8gjoX4WIiPhfhYiI+F+FiI7/UKA74HhdNsvoojdHE1z6b3CkNWODuKLDQLx9oz/bjxTeFspz2PgN3sUphH7WlExLwuDKX2LELKcC5ca08iZn0qXGjPIWhxKMy1pxCV7ws32kOI2ngXKu0hRFXBvWvPIOzdvWmPIOzNbbVHELZ1Vq/2tdLZPtE4831EREREREQk5DPTnkDYMnjbj66Why+sLCfG0zdydhPPgXYTl3Wg1cR4CbSZeBNoMXHZ/EMca4nLmW+ylRibK2gtMX5fQVuJd7aorcRRW6CVxJYtaifx81GgicTxw0ATiX+YyEQETGQiBCYyEQITmQiBiUyEwEQmQmAiEyEwkYkQmMhECExkIoQXSMw7ElfaA6aadAR+aA+YatoR+Fd7wFTmV9B8YNcW/a89YCrzgea3qPlA85eJrkD4FTS/RbsC4c+i5o/Bl9+i8IHm72TMB5rfouYDzV8meKumPWCql79Vgw98+S0KH8jLhPaAqcxvUfOB5o/Brq9Au1Zw+yvNXLyw/Je2Rbt+odllKl7oqkeJ3XcyqYVPeRt3e2KPWzWIwtbEPmdRjMKWjdrrMoFReD+x32UCpPBeYs8LPUrh92Ox750MTmFjFXt/4MUpvF3F/rdqSIVXqzjgZhup8JI45NMEVGGdOOihE1bhKXHYUzWwwsPpZuAH3tTCiUxHu2Loc9GP32msvy+ViIiIiIiIiIiIiIiIiIiIiIiIiIierdIeQFjlSu0RhJVuqz2CsK0z8Crjh97c0//a/8kmLtg+1VTB+Y32EKI23vlcewhR+b7QL7SnELTwh0K/1p5DzNqfCkOhPYmQIpwLfR61ZxERj+/8Pxb62U57GgG703+Fd+cfwY215/lx9c8C60IfMktHY5EF3yzcm2bzVRyhi6t5dv3WoOvC41LiaxQ1C+1hIT4W4mMhPhbiYyE+FuJjIb4vcn1FCCNJ6vsAAAAASUVORK5CYII=");
+background-repeat:no-repeat;
+background-size:cover; */
+.cardsuperchiald2{
+width: 100%;
+height:auto;
+}
+.cardsuperchiald2 h1{
+    margin-top:30px;
+}
+.cardsuperchiald2 img{
+    width:80px;
+    height: 80px;
+}
+.cardchiald-3parent{
+    width:31%;
+    height:300px;
+    border: 3px solid black;
+    margin-top:30px;
+    margin-left:2%;
+    
+}
+/*  background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEUAAAD////39/cuLi59fX27u7uXl5eysrKlpaXIyMh3d3fMzMzPz88yMjLy8vJmZmaTk5Pt7e1sbGzl5eUmJiYgICCfn58LCwspKSlFRUVMTEyKiopRUVFxcXFZWVlAQEA8jzF0AAAC/ElEQVR4nO3di3KiQBCF4ZlxN2uio7AL4m3N+79lvFEqEYGatF2nPd8T9F8zXMRInLfOaQ8gjoX4WIiPhfhYiI+F+FiI7/UKA74HhdNsvoojdHE1z6b3CkNWODuKLDQLx9oz/bjxTeFspz2PgN3sUphH7WlExLwuDKX2LELKcC5ca08iZn0qXGjPIWhxKMy1pxCV7ws32kOI2ngXKu0hRFXBvWvPIOzdvWmPIOzNbbVHELZ1Vq/2tdLZPtE4831EREREREQk5DPTnkDYMnjbj66Why+sLCfG0zdydhPPgXYTl3Wg1cR4CbSZeBNoMXHZ/EMca4nLmW+ylRibK2gtMX5fQVuJd7aorcRRW6CVxJYtaifx81GgicTxw0ATiX+YyEQETGQiBCYyEQITmQiBiUyEwEQmQmAiEyEwkYkQmMhECExkIoQXSMw7ElfaA6aadAR+aA+YatoR+Fd7wFTmV9B8YNcW/a89YCrzgea3qPlA85eJrkD4FTS/RbsC4c+i5o/Bl9+i8IHm72TMB5rfouYDzV8meKumPWCql79Vgw98+S0KH8jLhPaAqcxvUfOB5o/Brq9Au1Zw+yvNXLyw/Je2Rbt+odllKl7oqkeJ3XcyqYVPeRt3e2KPWzWIwtbEPmdRjMKWjdrrMoFReD+x32UCpPBeYs8LPUrh92Ox750MTmFjFXt/4MUpvF3F/rdqSIVXqzjgZhup8JI45NMEVGGdOOihE1bhKXHYUzWwwsPpZuAH3tTCiUxHu2Loc9GP32msvy+ViIiIiIiIiIiIiIiIiIiIiIiIiIierdIeQFjlSu0RhJVuqz2CsK0z8Crjh97c0//a/8kmLtg+1VTB+Y32EKI23vlcewhR+b7QL7SnELTwh0K/1p5DzNqfCkOhPYmQIpwLfR61ZxERj+/8Pxb62U57GgG703+Fd+cfwY215/lx9c8C60IfMktHY5EF3yzcm2bzVRyhi6t5dv3WoOvC41LiaxQ1C+1hIT4W4mMhPhbiYyE+FuJjIb4vcn1FCCNJ6vsAAAAASUVORK5CYII=");
+background-repeat:no-repeat;
+background-size:cover; */
+.cardsuperchiald3{
+width: 100%;
+height:auto;
+}
+.cardsuperchiald3 h1{
+    margin-top:30px;
+}
+.cardsuperchiald3 img{
+    width:80px;
+    height: 80px;
+}
